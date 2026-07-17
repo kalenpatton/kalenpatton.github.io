@@ -5,5 +5,16 @@ h1 {
 	color: blue;
 }
 p {
-	color: red;
+/* 	color: red; */
+}
+ul.nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	gap: 20px;
+	display: flex;
+}
+a.active {
+	font-weight:bold;
 }
